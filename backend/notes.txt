@@ -1,0 +1,22 @@
+steps:
+
+1-  npm init -y
+2-  npm i express cors dotenv nodemon mysql uuid jsonwebtoken bcryptjs
+
+## Description
+
+express: A popular web framework for building APIs and web applications.
+
+cors: Middleware for handling Cross-Origin Resource Sharing (CORS).
+
+dotenv: A package for managing environment variables.
+
+nodemon: A tool for automatically restarting the server during development.
+
+mysql: A MySQL database driver for Node.js.
+
+uuid: A package for generating universally unique identifiers (UUIDs).
+
+jsonwebtoken: A library for generating and verifying JSON Web Tokens (JWTs).
+
+bcryptjs: A library for hashing and verifying passwords securely.
