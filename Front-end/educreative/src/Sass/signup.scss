@@ -1,0 +1,49 @@
+.main{
+    @apply mt-16;
+    .container{
+        @apply  shadow max-[901px]:block max-[901px]:relative  grid grid-cols-5 w-2/3 mx-auto bg-primary overflow-hidden;
+        height: 750px;
+        .fildes{
+            @apply h-full col-span-3 max-[901px]:absolute max-[901px]:top-0 max-[901px]:left-1/4 max-[901px]:-translate-x-10  ;
+            .partial_nav{ 
+                @apply flex justify-end mt-4;
+                .button{
+                    @apply hover:brightness-50 font-serif focus:bg-secondary focus:text-primary duration-500 ease-in-out mr-3 my-auto py-1 px-4  text-gray-400 rounded-md border;
+                }
+            }
+            .head_tex{
+                @apply mt-4 mb-2 text-center;
+                h2{
+                    @apply   text-black font-serif text-2xl;
+                }
+                p{
+                    color:#9AA288;
+                    .link{
+                        color:#396C00
+                    }
+                }
+
+            }
+            form{
+                @apply h-full max-[901px]:w-full max-[800px]:w-4/5 max-[650px]:w-full w-2/3 mx-auto mt-3  px-8 pt-4 pb-8 mb-5;
+                div{
+                    @apply   text-opacity-70 italic text-sm font-serif text-left mb-3;
+                }
+                .inp{
+                    @apply shadow rounded-md leading-5 w-full   text-secondary  border-secondary border appearance-none focus:outline-none py-3 px-3 focus:outline-blue-400
+                }
+                .err{
+                    @apply text-center text-red-700 text-sm  italic;
+                }
+                .btn{
+                    @apply max-[901px]:shadow  hover:brightness-50 duration-500 text-center bg-secondary w-2/3 mx-auto py-2.5 rounded-md text-primary
+                }
+            }
+        
+        }
+        .img{
+            @apply col-span-2
+        }
+    
+    }
+}
