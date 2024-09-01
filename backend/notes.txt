@@ -20,3 +20,35 @@ uuid: A package for generating universally unique identifiers (UUIDs).
 jsonwebtoken: A library for generating and verifying JSON Web Tokens (JWTs).
 
 bcryptjs: A library for hashing and verifying passwords securely.
+
+
+
+3- Setup Nodemon : 
+"scripts": {
+  "server": "nodemon server.js"
+}
+
+
+4-  Create Environment Variables
+
+PORT=5000
+JWT_SECRET=*********
+HOST=localhost
+USER=root
+PASSWORD=""
+DATABASE=EduCreative
+
+
+5- Create Server
+6- Connect Database
+7- Create SQL Functions
+8- Create Table Schema
+9- Create Auth Controller Functions
+10- Create Auth Routes
+11- test in postman
+
+
+Notes: 
+A connection pool is a technique used in database management to manage multiple database connections efficiently. 
+Instead of creating a new database connection every time one is needed (which can be resource-intensive and slow), 
+a connection pool maintains a pool (or collection) of open, reusable connections.
