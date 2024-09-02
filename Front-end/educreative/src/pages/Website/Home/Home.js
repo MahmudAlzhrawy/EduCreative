@@ -61,12 +61,12 @@ export default function Home()
                <div className="w-full  bg-[#F5FAEE] flex justify-center items-center mt-[0px] mb-[0px] ml-auto mr-auto">
                     <Navbar />
                 </div>
-            <div className="w-full p-16 md:p-24 relative bg-[#F5FAEE]">
+            <div className="w-full p-10 md:p-24 relative bg-[#F5FAEE]">
                 <img className=' sm:w-[260px] md:[330px] lg:w-[412px] h-[65px] absolute left-[48%] sm:top-[21%] md:top-[25%] z-10 hidden sm:block' src={line2} alt=''/>
                 <img className=' w-[85px] lg:w-[97px] h-[20px] absolute left-[57%] md:left-[59%] lg:left-[56%] top-[55%] z-10  hidden sm:block' src={line1} alt=''/>
                 <div className="w-full flex flex-col justify-center items-center gap-7 ">
-                     <h1 className="font-normal text-[25px] sm:text-[35px] md:text-[40px] lg:text-[48px] text-[#000000] z-20 font-[Poppins]">All your studies on one platform.</h1>
-                     <h2 className="font-normal text-[20px] sm:text-[27px] md:text-[32px] lg:text-[40px] text-[#000000] z-20 font-[Poppins]">Simple,efficient ,free!</h2>
+                     <h1 className="font-normal text-center text-[25px] sm:text-[35px] md:text-[40px] lg:text-[48px] text-[#000000] z-20 font-[Poppins]">All your studies on one platform.</h1>
+                     <h2 className="font-normal text-center text-[20px] sm:text-[27px] md:text-[32px] lg:text-[40px] text-[#000000] z-20 font-[Poppins]">Simple,efficient ,free!</h2>
                      <button className=" w-[120px] h-[46px] md:w-[200px] md:h-[60px] flex justify-center items-center bg-[#3C4532] font-[Inter] font-normal text-[17px] md:text-[24px] text-[#F5FAEE] rounded-[15px]">Start now</button>
                 </div>
                 <img className=' w-[95px] lg:w-[100px] h-[100px] absolute left-[55%] hidden sm:block' src={arr} alt=''/>
