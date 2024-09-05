@@ -1,11 +1,13 @@
+require('dotenv').config();
+// Import the dotenv package to load environment variables from a .env file
+
+console.log('JWT_SECRET:', process.env.JWT_SECRET); // Should print your secret key
+
 // Import the Express framework to build the web server
 const express = require("express");
 
-// Import the dotenv package to load environment variables from a .env file
-const dotenv = require("dotenv");
-
-// Configure dotenv to read environment variables
-dotenv.config();
+// // Configure dotenv to read environment variables
+// dotenv.config();
 
 // Import the cors package to enable Cross-Origin Resource Sharing
 const cors = require("cors");
