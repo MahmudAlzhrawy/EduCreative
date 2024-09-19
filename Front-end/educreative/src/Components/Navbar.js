@@ -1,6 +1,5 @@
-import search from './navImages/Search.png'
-import user from './navImages/user.png'
-import Arrow from './navImages/Arrow.png'
+import search from '../assets/images/Search.png'
+import user from '../assets/images/user.png'
 import { useState } from 'react'
 import { IoMenu } from "react-icons/io5";
 import { IoMdArrowDropdown } from "react-icons/io";
