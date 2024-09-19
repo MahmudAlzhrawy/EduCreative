@@ -1,7 +1,7 @@
-import log from './loginImages/log.png'
+import log from '../assets/images/log.png'
 import * as Yup from 'yup'
 import {Formik , Form , Field , ErrorMessage} from 'formik'
-import Style from '../../../Components/Style/Style'
+import Style from '../Components/Style'
 import { useState } from 'react'
 export default function Login()
 {
