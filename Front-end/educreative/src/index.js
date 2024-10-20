@@ -3,14 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
+import MenuFunc from './Components/Context/MenuState';
+import WindowFunc from './Components/Context/Window';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
+ 
   <React.StrictMode>
-    <BrowserRouter>
-    <App />
-    </BrowserRouter>
+   <MenuFunc>
+     <WindowFunc>
+       <BrowserRouter>
+          <App />
+       </BrowserRouter>
+     </WindowFunc>
+    </MenuFunc>
   </React.StrictMode>
+ 
+  
 );
 
 // If you want to start measuring performance in your app, pass a function

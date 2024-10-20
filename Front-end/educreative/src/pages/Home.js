@@ -57,8 +57,8 @@ export default function Home()
     
     const showCards = ImagesArray.map((item , index)  => <Card key={index} url={item.src} /> )
     return(
-        <div className='w-full bg-[#F5FAEE] box-border'>
-               <div className="w-full  bg-[#F5FAEE] flex justify-center items-center mt-[0px] mb-[0px] ml-auto mr-auto">
+        <div className='xl:w-[1340px] mx-auto w-full bg-[#F5FAEE] box-border'>
+               <div className="w-full bg-[#F5FAEE] flex justify-center items-center mt-[0px] mb-[0px] ml-auto mr-auto">
                     <Navbar />
                 </div>
             <div className="w-full p-10 md:p-24 relative bg-[#F5FAEE]">
